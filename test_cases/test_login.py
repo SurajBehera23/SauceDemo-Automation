@@ -9,4 +9,4 @@ class TestLogin:
     driver:webdriver.Chrome
 
     def test_01(self):
-        self.driver.get("https://www.saucedemo.com/")
+        self.driver.get("https://www.saucedemo.com/") #rgrg
