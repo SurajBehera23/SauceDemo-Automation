@@ -28,6 +28,7 @@ def setup_driver(request, browser):
 
     request.cls.driver = driver
     driver.get("https://www.saucedemo.com/")
+    driver.maximize_window()
     yield driver
     driver.close()
 
